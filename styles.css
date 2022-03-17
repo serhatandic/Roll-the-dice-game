@@ -1,0 +1,62 @@
+body
+{
+  background-color: #203239;
+}
+
+.big-heading
+{
+  font-family:"Press Start 2P";
+  color:White;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+.left-dice
+{
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 15%;
+}
+
+.right-dice
+{
+  text-align: center;
+  padding-top: 50px;
+  padding-right: 15%;
+}
+
+.player-name
+{
+  color:white;
+  font-family:"Press Start 2P";
+  font-size: 1.5rem;
+}
+
+.btn-container
+{
+  padding-top: 150px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+.btn:hover
+{
+  background-color: orange;
+}
+
+.row
+{
+  width:100%;
+}
+
+@media (max-width: 1010px)
+{
+  .left-dice
+  {
+    padding-left: 0;
+  }
+
+  .right-dice
+  {
+    padding-right: 0;
+  }
+}
